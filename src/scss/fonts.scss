@@ -1,0 +1,35 @@
+@import "../scss/mixins/font-face";
+
+@font-face {
+   font-family: "OpenSansRegular";
+   src: url("../fonts/OpenSans/OpenSansRegular.eot");
+   src: url("../fonts/OpenSans/OpenSansRegular.eot?iefix")format("embedded-opentype"),
+   url("../fonts/OpenSans/OpenSansRegular.woff")format("woff"),
+   url("../fonts/OpenSans/OpenSansRegular.ttf")format("truetype");
+   font-style: normal;
+   font-weight: normal;
+
+ }
+
+ //@font-face {
+ //  font-family: "OpenSansBold";
+ //  //src: url("../fonts/OpenSans/OpenSansBold.eot");
+ //  //src: url("../fonts/OpenSans/OpenSansBold.eot?iefix")format("embedded-opentype"),
+ //  url("../fonts/OpenSans/OpenSansBold.woff")format("woff"),
+ //  url("../fonts/OpenSans/OpenSansBold.ttf")format("truetype");
+ //  font-style: normal;
+ //  font-weight: normal;
+ //
+ //}
+
+
+ @font-face {
+   font-family: "OpenSansSemibold";
+   src: url("../fonts/OpenSans/OpenSansSemibold.eot");
+   src: url("../fonts/OpenSans/OpenSansSemibold.eot?iefix")format("embedded-opentype"),
+   url("../fonts/OpenSans/OpenSansSemibold.woff")format("woff"),
+   url("../fonts/OpenSans/OpenSansSemibold.ttf")format("truetype");
+   font-style: normal;
+   font-weight: normal;
+
+ }

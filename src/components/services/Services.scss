@@ -1,0 +1,79 @@
+$bagServices: #e4fdf9;
+$colorh2: #000;
+$colorH1: #fff;
+$linkHover: #00897b;
+$servisesColor: #f8f8f8;
+$buttonColor: #212121;
+
+
+.services {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 90px 0 60px 0;
+  background: $bagServices;
+  text-align: center;
+}
+
+.services__title {
+  font: 30px OpenSansBold, sans-serif;
+  font-weight: bold;
+  color: $colorh2;
+}
+
+.services__text {
+  margin: 40px 0 90px 0;
+  font: 15px OpenSansRegular, sans-serif;
+  text-align: center;
+  list-style-type: none;
+}
+
+.inform__content {
+  height: auto;
+  padding: 60px 50px 50px 50px;
+  margin-bottom: 30px;
+  background: $colorH1;
+  transition: 1s;
+  position: relative;
+}
+
+.inform__content:hover {
+  background: $linkHover;
+  color: $colorH1;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.8);
+}
+
+.inform__icons {
+  font: 65px FontAwesome, sans-serif;
+  color: black;
+  transition: .3s;
+}
+.inform__content:hover
+.inform__icons {
+  color: $colorH1;
+}
+
+.services__h4 {
+  font: 20px OpenSansSemibold, sans-serif;
+  margin: 40px 0 26px 0;
+}
+
+.inform__text {
+  margin-bottom: 48px;
+}
+
+.inform__content button {
+  font: 16px OpenSansSemibold, sans-serif;
+  background: transparent;
+  padding: 10px 14px;
+  outline: none;
+  border: 2px solid $buttonColor;
+  transition: .8s;
+  cursor: pointer;
+}
+
+.inform__content:hover button {
+  border: 2px solid $colorH1;
+  color: $colorH1;
+  transform: rotateY(30deg);
+}

@@ -1,0 +1,134 @@
+$white: #fff;
+$contactColor: #3949ab;
+$colorPlaceholder: #626262;
+$textInput: #000;
+
+.contact {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding: 90px 0 80px 0;
+  background: url("../../img/footer_bg.png") no-repeat 0 100%;
+  background-size: cover;
+}
+
+
+.contact__title {
+  font: 30px OpenSansBold, sans-serif;
+  font-weight: bold;
+  color: $white;
+}
+
+.contact__text {
+  font: 15px OpenSansRegular, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  color: $white;
+}
+
+.background {
+  position: relative;
+  margin: 80px 0 60px 0;
+}
+
+.backgraund__contact {
+  margin-bottom: 15px;
+}
+.backgraund__contact:before {
+  content: '';
+  position: relative;
+  width: 70px;
+  height: 70px;
+  background-color: $contactColor;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.backgraund__contact i {
+  position: absolute;
+  font: 35px FontAwesome, sans-serif;
+}
+
+.backgraund__contact i:hover {
+  color: $white;
+}
+
+.contact__list {
+  display: block;
+  list-style-type: none;
+  line-height: 25px;
+}
+
+.contact__link {
+  font: 16px OpenSansSemibold, sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: $white;
+}
+
+.contact__link:hover {
+  color: $contactColor;
+}
+
+.input__all input {
+  width: 480px;
+  height: 55px;
+  font: 16px OpenSansSemibold, sans-serif;
+  padding-left: 10px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  color: $textInput ;
+  cursor: pointer;
+  transition: .5s;
+  box-sizing: border-box;
+}
+
+.input__all input:hover {
+  border: 2px solid $contactColor;
+}
+
+.input__all input::placeholder {
+  color: $colorPlaceholder;
+}
+
+.form__text textarea {
+  font: 16px OpenSansSemibold, sans-serif;
+  color: $textInput;
+  width: 988px;
+  height: 200px;
+  padding: 10px 0 0 10px;
+  margin: 20px 0 20px 0;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .5s;
+  box-sizing: border-box;
+}
+
+.form__text textarea:hover {
+  border: 2px solid $contactColor;
+}
+
+.form__text textarea::placeholder {
+  color: $colorPlaceholder;
+}
+
+.form__button button {
+  font: 16px OpenSansSemibold, sans-serif;
+  text-align: center;
+  padding: 8px 15px;
+  margin-right: 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.form__button button:hover {
+  background: $contactColor;
+  color: $white;
+}

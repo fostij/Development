@@ -1,0 +1,16 @@
+$rightsColor: white;
+$rightsText: #212121;
+
+.rights {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  background: $rightsColor;
+}
+
+.rights p {
+  font: 16px OpenSansSemibold, sans-serif;
+  color: $rightsText;
+}

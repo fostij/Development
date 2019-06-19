@@ -1,0 +1,22 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/scss/font-awesome.min.scss");
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+*, *:after, *:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    min-width: 320px;
+    height: 100vh;
+    position: relative;
+    line-height: 1.5;
+    overflow-x: hidden;
+}

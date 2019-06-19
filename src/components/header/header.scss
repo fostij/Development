@@ -1,0 +1,86 @@
+$white: #fff;
+$fonts: "OpenSansRegular", "OpenSansBold", "OpenSansSemibold", sans-serif;
+$linkColor: #212121;
+$linkHover: #00897b;
+
+
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: $white;
+  position: relative;
+  padding: 30px 0 44px 0;
+  font-family: "OpenSansRegular", sans-serif;
+}
+
+.header__logo p {
+  display: block;
+  font: bold 20px "OpenSansBold", sans-serif;
+  color: $linkColor;
+  animation-name: rotateY;
+  animation-duration: 3s;
+  cursor: pointer;
+}
+
+.nav a:hover {
+  color: $linkHover;
+  box-sizing: border-box;
+}
+
+.nav__list {
+  list-style-type: none;
+  margin-left: 45px;
+}
+
+.nav__list i {
+  font: 22px FontAwesome, sans-serif;
+}
+
+.nav__link {
+  display: inline-block;
+  position: relative;
+  font: 16px "OpenSansSemibold", sans-serif;
+  text-decoration: none;
+  color: $linkColor;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.nav__link:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: $linkHover;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition: .3s;
+  margin-bottom: -6px;
+}
+
+.nav__link:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.nav__search{
+  text-decoration: none;
+  color: $linkColor;
+  transition: .3s;
+}
+
+.nav__search i {
+  font: 14px FontAwesome, sans-serif;
+}
+
+.nav__search i:hover {
+  transform: rotateX(360deg);
+
+}
+
+@keyframes rotateY {
+  from {transform: rotateY(0deg);}
+  to   {transform: rotateY(360deg);}
+}

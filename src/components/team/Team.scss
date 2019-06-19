@@ -1,0 +1,66 @@
+$teamColorText: #212121;
+$colorIcons: #00897b;
+$backgSpan: #f0f1f1;
+$hoverSpan: #3949ab;
+$white: #fff;
+
+.team {
+  width: 100%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  padding: 90px 0 80px 0;
+}
+
+.slider {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  color: $teamColorText;
+}
+
+.slider__items img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.slider__items h5 {
+  font: 20px OpenSansSemibold, sans-serif;
+  margin: 20px 0 10px 0;
+}
+
+.slider__items p {
+  font: 15px OpenSansRegular, sans-serif;
+  margin-bottom: 50px;
+}
+
+.slider__icons a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.slider__icons span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: $backgSpan;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 5px;
+  transition: .5s;
+}
+
+.slider__icons span:hover,
+.slider__icons i:hover:before {
+  background-color: $hoverSpan;
+  color: $white;
+}
+
+.slider__icons i {
+  font: 25px FontAwesome, sans-serif;
+  color: $colorIcons;
+  transition: .5s;
+}

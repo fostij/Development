@@ -1,0 +1,63 @@
+$backgWork: #fff;
+$colorButton: #212121;
+$colorButtonHover: #fff;
+$borderColor: #00897b;
+
+.work {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: $backgWork;
+  padding: 110px 0 110px 0;
+  text-align: center;
+}
+
+.work__button {
+  font: 16px OpenSansSemibold, sans-serif;
+  color: $colorButton;
+  background: transparent;
+  border: 1px solid $borderColor;
+  padding: 8px 20px;
+  transition: .5s;
+  margin-right: 15px;
+}
+
+.work__button:hover {
+  background: $borderColor;
+  color: $colorButtonHover;
+}
+
+.work__top {
+  margin-top: 120px;
+}
+
+.work__bottom {
+  margin: 25px 0 120px 0;
+}
+
+.work__img {
+  position: relative;
+  cursor: pointer;
+  transition: .3s;
+  z-index: 0;
+}
+
+.work__img:hover {
+  filter: brightness(50%);
+}
+
+.work__text {
+  display: none;
+}
+
+.filter:hover .work__text {
+  display: block;
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 40%;
+  left: 0;
+  z-index: 100;
+  cursor: pointer;
+}

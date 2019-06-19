@@ -1,0 +1,45 @@
+$backgroundAbout: #fff;
+$colorh2: #000;
+
+
+.about {
+  background: $backgroundAbout;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  position: relative;
+  padding: 100px 0 115px 0;
+}
+
+.about__title {
+  font: 30px OpenSansBold, sans-serif;
+  font-weight: bold;
+  color: $colorh2;
+}
+
+.about__text {
+  font: 15px OpenSansRegular, sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.items {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.items__content img {
+  margin-bottom: 42px;
+  max-width: 100%;
+}
+
+.items__content h4 {
+  font: 20px OpenSansSemibold, sans-serif;
+  margin-bottom: 27px;
+}
+
+.items__content p {
+  font: 15px OpenSansRegular, sans-serif;
+}
+
+

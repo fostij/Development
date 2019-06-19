@@ -1,0 +1,103 @@
+$backgPlan: #f0f1f1;
+$backgCard: #fff;
+$borderList: #bfbfbf;
+$colorList: #212121;
+$cardHover: #00897b;
+$colorHover: #3949ab;
+
+.plan {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: $backgPlan;
+  padding: 110px 0 110px 0;
+  text-align: center;
+}
+
+.card {
+  margin: 60px 0 0 0;
+}
+
+.card__overlay {
+  background-color: $backgCard;
+  transition: .5s;
+}
+
+.card__overlay:hover {
+  box-shadow: -1px 7px 15px 1px rgba(0, 0, 0, 0.57);
+}
+
+.card__description {
+  display: block;
+  max-width: 100%;
+  max-height: 170px;
+  background: url("../../img/trail.png") no-repeat 0 100%;
+  background-size: cover;
+  padding: 40px 0 65px 0;
+  margin-bottom: 40px;
+  color: $backgCard;
+}
+
+.card__description h5 {
+  font: 25px OpenSansRegular, sans-serif;
+  margin-bottom: 15px;
+}
+
+.card__description {
+  font-size: 35px;
+}
+
+.card__description sup {
+  position: relative;
+  font-size: 22px;
+  vertical-align: top;
+}
+
+.card__description sub {
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+.card__list {
+  padding: 0 98px 0 98px;
+}
+.card__list li a{
+  font: 17px OpenSansRegular, sans-serif;
+  color: $colorList;
+  text-decoration: none;
+}
+
+.card__list li:hover {
+  border-bottom: 1px solid $colorList;
+}
+
+.card__list a:hover {
+  color: $colorHover;
+}
+
+.card__list li {
+  list-style-type: none;
+  border-bottom: 1px solid $borderList;
+  max-width: 155px;
+  margin: 0 auto 30px auto;
+  padding-bottom: 8px;
+}
+
+.card__button button {
+  font: 20px OpenSansSemibold, sans-serif;
+  color: $colorList;
+  text-align: center;
+  margin: 30px 0 40px 0;
+  padding: 8px 15px;
+  background: transparent;
+  outline: none;
+  border: 1px solid $colorList;
+  transition: .5s;
+}
+
+.card__button button:hover {
+  background: $cardHover;
+  color: $backgCard;
+  border: 1px solid $cardHover;
+}
+
